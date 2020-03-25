@@ -1,5 +1,4 @@
-from alpine
+from alpine:3.11.5
 
-RUN apk update
-RUN apk add sl
+RUN apk --no-cache add sl
 COPY train /
