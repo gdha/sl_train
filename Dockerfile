@@ -1,4 +1,4 @@
-from alpine:3.23.4
+from alpine:3.24.0
 
 RUN apk --no-cache add sl
 COPY train /
